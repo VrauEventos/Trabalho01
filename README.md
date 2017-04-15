@@ -13,7 +13,7 @@ Este documento contém a especificação do projeto do banco de dados <nome do p
 Descrever o mini-mundo. Não deve ser maior do que 30 linhas <br>
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
-https://onparty.mybalsamiq.com/projects/onparty/grid
+
 
 
 ### 5.MODELO CONCEITUAL<br>
