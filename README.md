@@ -4,10 +4,11 @@ Trabalho desenvolvido durante a disciplina de BD
 # Sumário
 
 ### 1.COMPONENTES<br>
-Integrantes do grupo<br>
+Bruno Vicente do Nascimento
+Maria Eduarda Mendes Santana<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
-Este documento contém a especificação do projeto do banco de dados <nome do projeto> e motivação da escolha realizada. <br>
+O presente trabalho é sobre um site de eventos, mais concretamente sobre um banco de dados onde será armazenado informções sobre os eventos e sobre oos usuários, onde permitira que os usários armazenem e acumulem pontos de descontos. Nossa motivação foi a crescente procura por eventos, como shows e festas de confiança, onde o usuário pudesse ter a confiança de que este evento não é um "fake", isto é, falso.
 
 ### 3.MINI-MUNDO<br>
 Descrever o mini-mundo. Não deve ser maior do que 30 linhas <br>
