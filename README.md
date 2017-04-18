@@ -11,7 +11,8 @@ Maria Eduarda Mendes Santana<br>
 O presente trabalho é sobre um site de eventos, mais concretamente sobre um banco de dados onde será armazenado informções sobre os eventos e sobre oos usuários, onde permitira que os usários armazenem e acumulem pontos de descontos. Nossa motivação foi a crescente procura por eventos, como shows e festas de confiança, onde o usuário pudesse ter a confiança de que este evento não é um "fake", isto é, falso.
 
 ### 3.MINI-MUNDO<br>
-Descrever o mini-mundo. Não deve ser maior do que 30 linhas <br>
+
+Retrataremos um site de eventos, no qual, o usuário terá um cadastro e uma página para seu perfil, na qual conterá as informações referentes ao próprio usuário, por exemplo, Nome completo, CPF, Data de Nascimento, Sexo, Cidade, CEP, Telefone ou Celular e um e-mail. Este usuário acessará informações do site, separados por categorias, sendo elas: Shows, eventos, festas e mais visualizados, onde cada evento fornece informações como localização (rua, número, bairro, cidade) preço, data, hora e uma breve descrição. Esses eventos tem uma pontuação, que o usuário pode receber se realizar uma série de ações usadas como uma confirmação de presença, tendo como princípio do QR code que acumulam pontos para o usuário, se optar por adquiri-los poderá trocar os pontos por descontos nos aplicativos com parcerias com o site, que são Uber e Ifood.
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 
