@@ -15,7 +15,7 @@ O presente trabalho é sobre um site de eventos, mais concretamente sobre um ban
 Retrataremos um site de eventos, no qual, o usuário terá um cadastro e uma página para seu perfil, na qual conterá as informações referentes ao próprio usuário, por exemplo, Nome completo, CPF, Data de Nascimento, Sexo, Cidade, CEP, Telefone ou Celular e um e-mail. Este usuário acessará informações do site, separados por categorias, sendo elas: Shows, eventos, festas e mais visualizados, onde cada evento fornece informações como localização (rua, número, bairro, cidade) preço, data, hora e uma breve descrição. Esses eventos tem uma pontuação, que o usuário pode receber se realizar uma série de ações usadas como uma confirmação de presença, tendo como princípio do QR code que acumulam pontos para o usuário, se optar por adquiri-los poderá trocar os pontos por descontos nos aplicativos com parcerias com o site, que são Uber e Ifood.
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
-
+https://github.com/VrauEventos/Trabalho01/blob/master/VRAU%20(3).pdf
 
 
 ### 5.MODELO CONCEITUAL<br>
