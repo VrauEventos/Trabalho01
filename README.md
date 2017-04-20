@@ -8,7 +8,7 @@ Bruno Vicente do Nascimento
 Maria Eduarda Mendes Santana<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
-O presente trabalho é sobre um site de eventos, mais concretamente sobre um banco de dados onde será armazenado informações sobre os eventos e sobre oos usuários, onde permitira que os usários armazenem e acumulem pontos de descontos. Nossa motivação foi a crescente procura por eventos, como shows e festas de confiança, onde o usuário pudesse ter a confiança de que este evento não é um "fake", isto é, falso.
+O presente trabalho é sobre um site de eventos, mais concretamente sobre um banco de dados onde será armazenado informações sobre os eventos e sobre os usuários, onde permitira que os usários armazenem e acumulem pontos de descontos. Nossa motivação foi a crescente procura por eventos, como shows e festas de confiança, onde o usuário pudesse ter a confiança de que este evento não é um "fake", isto é, falso.
 
 ### 3.MINI-MUNDO<br>
 
