@@ -20,7 +20,7 @@ https://github.com/VrauEventos/Trabalho01/blob/master/VRAU%20(3).pdf
 
 ### 5.MODELO CONCEITUAL<br>
     a) NOTACAO ENTIDADE RELACIONAMENTO
-![Alt text](https://github.com/discipbd1/trab01/blob/master/sample_MC.png?raw=true "Modelo Conceitual")
+![Alt text](https://github.com/VrauEventos/Trabalho01/blob/master/print_conceitual.png)
     
     b) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
 
