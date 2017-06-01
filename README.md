@@ -191,24 +191,19 @@ ALTER TABLE LOCAL ADD FOREIGN KEY(cod_tipo_local) REFERENCES TIPO_LOCAL (cod_tip
  
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
-        Detalhamento sobre as informações e processo de obtenção ou geração dos dados.
-        Referenciar todas as fontes referentes a :
-        a) obtenção dos dados
-        b) obtenção de códigos reutilizados
-        c) fontes de estudo para desenvolvimento do projeto
-        
+![Alt text](https://github.com/VrauEventos/Trabalho01/blob/master/INSERT.png)
+![Alt text](https://github.com/VrauEventos/Trabalho01/blob/master/INSERT2.png)
+![Alt text](https://github.com/VrauEventos/Trabalho01/blob/master/INSERT3.png)
+![Alt text](https://github.com/VrauEventos/Trabalho01/blob/master/INSERT4.png)
+
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
-        a) inclusão das instruções para criação das tabelas e estruturas de amazenamento do BD
-        b) inclusão das instruções de inserção dos dados nas referidas tabelas
-        c) inclusão das instruções para execução de outros procedimentos necessários
-
-
-        Entrega até este ponto em (data a ser definida)
+     
         
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
 OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
-#### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
+#### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas)<br>
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3) <br>
+
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)<br>
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3)  <br>
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
