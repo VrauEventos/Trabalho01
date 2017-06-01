@@ -4,7 +4,7 @@ Trabalho desenvolvido durante a disciplina de BD
 # Sumário
 
 ### 1.COMPONENTES<br>
-Bruno Vicente do Nascimento
+Bruno Vicente do Nascimento e
 Maria Eduarda Mendes Santana<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
