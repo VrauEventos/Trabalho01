@@ -195,7 +195,7 @@ ALTER TABLE LOCAL ADD FOREIGN KEY(cod_tipo_local) REFERENCES TIPO_LOCAL (cod_tip
 ![Alt text](https://github.com/VrauEventos/Trabalho01/blob/master/INSERT2.png)
 ![Alt text](https://github.com/VrauEventos/Trabalho01/blob/master/INSERT3.png)
 ![Alt text](https://github.com/VrauEventos/Trabalho01/blob/master/INSERT4.png)
-
+![Alt text](https://github.com/VrauEventos/Trabalho01/blob/master/Vrau1.certo.brM)
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
      
         
