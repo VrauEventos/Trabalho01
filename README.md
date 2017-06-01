@@ -81,8 +81,112 @@ Retrataremos um site de eventos, no qual, o usuário terá um cadastro e uma pá
 ![Alt text](https://github.com/VrauEventos/Trabalho01/blob/master/print_logico.png)
 
 ### 7	MODELO FÍSICO<br>
+CREATE TABLE ESTADO (
+cod_estado VARCHAR(10) PRIMARY KEY,
+nome_estado VARCHAR(10)
+)
 
-        Entrega até este ponto em (data a ser definida)
+CREATE TABLE CIDADE (
+nome_cidade VARCHAR(10),
+cod_cidade VARCHAR(10) PRIMARY KEY,
+cod_estado VARCHAR(10),
+FOREIGN KEY(cod_estado) REFERENCES ESTADO (cod_estado)
+)
+
+CREATE TABLE BAIRRO (
+nome_bairro VARCHAR(10),
+cod_bairro VARCHAR(10) PRIMARY KEY
+)
+
+CREATE TABLE LOCAL (
+rua_descricao VARCHAR(10),
+CEP VARCHAR(10) PRIMARY KEY,
+cod_tipo_local VARCHAR(10),
+cod_bairro VARCHAR(10),
+FOREIGN KEY(cod_bairro) REFERENCES BAIRRO (cod_bairro)
+)
+
+CREATE TABLE TIPO_LOCAL (
+cod_tipo_local VARCHAR(10) PRIMARY KEY,
+descricao_tipo_local VARCHAR(10)
+)
+
+CREATE TABLE TIPO_EVENTO (
+codigo_tipo_evento VARCHAR(10) PRIMARY KEY,
+descricao_tipo_evento VARCHAR(10)
+)
+
+CREATE TABLE EVENTO_CREDITO (
+nome_evento VARCHAR(10),
+data VARCHAR(10),
+preço VARCHAR(10),
+qrcode_evento VARCHAR(10),
+Cod_evento VARCHAR(10) PRIMARY KEY,
+horario VARCHAR(10),
+descricao_evento_credito VARCHAR(10),
+codigo_tipo_evento VARCHAR(10),
+FOREIGN KEY(codigo_tipo_evento) REFERENCES TIPO_EVENTO (codigo_tipo_evento)
+)
+
+CREATE TABLE PESSOA (
+sexo VARCHAR(10),
+email VARCHAR(10),
+codigo VARCHAR(10) PRIMARY KEY,
+perfil VARCHAR(10),
+nome_usuario VARCHAR(10),
+qrcode_usuario VARCHAR(10),
+CPF VARCHAR(10),
+senha VARCHAR(10),
+data_de_nascimento VARCHAR(10),
+nome_completo VARCHAR(10)
+)
+
+CREATE TABLE EVENTO_DESCONTO (
+descricao VARCHAR(10),
+cod_desconto VARCHAR(10) PRIMARY KEY
+)
+
+CREATE TABLE contatos (
+contatos_PK INTEGER PRIMARY KEY,
+contatos VARCHAR(10),
+codigo_FK VARCHAR(),
+FOREIGN KEY(codigo_FK) REFERENCES PESSOA (codigo)
+)
+
+CREATE TABLE possui1 (
+cod_cidade VARCHAR(10),
+cod_bairro VARCHAR(10),
+FOREIGN KEY(cod_cidade) REFERENCES CIDADE (cod_cidade),
+FOREIGN KEY(cod_bairro) REFERENCES BAIRRO (cod_bairro)
+)
+
+CREATE TABLE vai (
+data_hora VARCHAR(10),
+pontos VARCHAR(10),
+Cod_evento VARCHAR(10),
+codigo VARCHAR(10),
+FOREIGN KEY(Cod_evento) REFERENCES EVENTO_CREDITO (Cod_evento),
+FOREIGN KEY(codigo) REFERENCES PESSOA (codigo)
+)
+
+CREATE TABLE debita (
+data_hora VARCHAR(10),
+pontos VARCHAR(10),
+cod_desconto VARCHAR(10),
+codigo VARCHAR(10),
+FOREIGN KEY(cod_desconto) REFERENCES EVENTO_DESCONTO (cod_desconto),
+FOREIGN KEY(codigo) REFERENCES PESSOA (codigo)
+)
+
+CREATE TABLE possui (
+CEP VARCHAR(10),
+Cod_evento VARCHAR(10),
+FOREIGN KEY(CEP) REFERENCES LOCAL (CEP),
+FOREIGN KEY(Cod_evento) REFERENCES EVENTO_CREDITO (Cod_evento)
+)
+
+ALTER TABLE LOCAL ADD FOREIGN KEY(cod_tipo_local) REFERENCES TIPO_LOCAL (cod_tipo_local)
+
         
  
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
