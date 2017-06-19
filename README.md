@@ -29,6 +29,8 @@ Retrataremos um site de eventos, no qual, o usuário terá um cadastro e uma pá
     [Grupo02]: [Nomes dos que participaram na avaliação]
 
 #### 5.2 DECISÕES DE PROJETO
+    
+#### 5.3 DESCRIÇÃO DOS DADOS 
     cod_estado: usamos como chave primária pois assim teriamos como identificar e organizar cada estado, sem fazer com que eles se repitam.
     cod_cidade: identificar a cidade, sem fazer com que repita.
     cod_bairro: chave primaria, identificando um único bairro.
@@ -38,8 +40,6 @@ Retrataremos um site de eventos, no qual, o usuário terá um cadastro e uma pá
     cod_evento: Chave primária. Cada evento recebe um codigo unico, para identificar qual evento o usuario foi e quantos pontos é necessario acumular no qr_code
     codigo: Chave primaria para identificar cada usuario, uma vez que o nome de usuario pode acabar se repetindo.
     cod_desconto:Chave primaria para descontar do perfil do usuario, leitura do qr_code do usuario.
-    
-#### 5.3 DESCRIÇÃO DOS DADOS 
     ESTADO: Tabela onde guarda informações sobre os Estados cadastrados.
     nome_estado: identificação do estado.
     CIDADE: Tabela para armazenar informações das cidades.
@@ -59,7 +59,6 @@ Retrataremos um site de eventos, no qual, o usuário terá um cadastro e uma pá
     nome_evento: descrição do evento, contendo nome.
     horario: descrição do evento, contendo um horario.
     qrcode_evento: Cada evento possue um qr_code, que soma pontos para o usuario.
-    
     data_hora: usada para saber que horas e qual foi o evento que o usuario usou o qr_code, para confirmar validação do mesmo.
     pontos: acumulo de pontos, que esta ligado a um codigo de evento e a um qr_code.
     PESSOA: Tabela com os dados pessoais, para criar um perfil para o usuario.
