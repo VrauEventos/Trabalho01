@@ -57,11 +57,11 @@ FOREIGN KEY(codigo_tipo_evento) REFERENCES TIPO_EVENTO (codigo_tipo_evento)
 
 CREATE TABLE PESSOA (
 qrcode_usuario VARCHAR(45),
-contatos int not null,
-contatos1 int,
-contatos2 int,
-contatos3 int,
-contatos4 int,
+contatos varchar (45),
+contatos1 varchar (45),
+contatos2 varchar (45),
+contatos3 varchar (45),
+contatos4 varchar(45),
 CPF int not null,
 data_de_nascimento date,
 nome_completo VARCHAR(45),
