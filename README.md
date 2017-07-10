@@ -79,7 +79,7 @@ Retrataremos um site de eventos, no qual, o usuário terá um cadastro e uma pá
 ![Alt text]
 
 ### 7	MODELO FÍSICO<br>
-        
+        https://github.com/VrauEventos/Trabalho01/blob/master/fisico_vrau_bd.sql
  
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
