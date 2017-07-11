@@ -99,10 +99,16 @@ https://github.com/VrauEventos/Trabalho01/blob/master/insert_vrau.sql
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
 OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas)<br>
+https://github.com/VrauEventos/Trabalho01/blob/master/select_vrau.sql
+![Alt text](https://github.com/VrauEventos/Trabalho01/blob/master/select_estado.PNG)
+![Alt text](https://github.com/VrauEventos/Trabalho01/blob/master/select_bairro.PNG)
+![Alt text](https://github.com/VrauEventos/Trabalho01/blob/master/select.PNG)
+![Alt text](https://github.com/VrauEventos/Trabalho01/blob/master/select_tipolocal.PNG)
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3) <br>
 https://github.com/VrauEventos/Trabalho01/blob/master/consulta_where.sql
 ![Alt text](https://github.com/VrauEventos/Trabalho01/blob/master/where.PNG)
+
 
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)<br>
 FALTA ARQUIVO
