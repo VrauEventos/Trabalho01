@@ -29,38 +29,40 @@ Retrataremos um site de eventos, no qual, o usuário terá um cadastro e uma pá
     [Grupo02]: [Nomes dos que participaram na avaliação]
 
 #### 5.2 DECISÕES DE PROJETO
+**PERFIL**
+Foi usada uma herança, sendo que perfil viraria uma tabela nova, porém, com os mesmos dados de "PESSOA".
 #### 5.3 DESCRIÇÃO DOS DADOS 
-    cod_estado: usamos como chave primária pois assim teriamos como identificar e organizar cada estado, sem fazer com que eles se repitam.
-    cod_cidade: identificar a cidade, sem fazer com que repita.
+   **ESTADO**
+   cod_estado: usamos como chave primária pois assim teriamos como identificar e organizar cada estado, sem fazer com que eles se repitam.
+    nome_estado: nome do estado, associado à um código.
+   **CIDADE**
+   cod_cidade: identificar a cidade, sem fazer com que repita.
+    nome_cidade:  nome da cidade, associado à um código.
+    **BAIRRO**
     cod_bairro: chave primaria, identificando um único bairro.
+    nome_bairro: nome do bairro, associado à um código.
+    **TIPO_LOCAL**
     cod_tipo_local: Cada local tem um tipo, seja rua, avenida, etc. Essa chave primária é usada para separar e oranizar essa divisão.
+    descricao_tipo_local: especificação, o que cada código significa.
+    **LOCAL**
+    cep: Chave primária, por não se repetir.
+    rua_descricao: nome da rua ou avenida.
+    **TIPO_EVENTO**
     cod_tipo_evento: Chave primária para separar e agrupar, organizando cada tipo de evento.
-    CEP: Chave primária, por não se repetir.
-    cod_evento: Chave primária. Cada evento recebe um codigo unico, para identificar qual evento o usuario foi e quantos pontos é necessario acumular no qr_code
-    codigo: Chave primaria para identificar cada usuario, uma vez que o nome de usuario pode acabar se repetindo.
+    descricao_tipo_evento: tipo do evento (Festival, Festa, Balada, etc.).
+    **EVENTO_CREDITO**
+    cod_evento: Chave primária. Cada evento recebe um codigo unico, para identificar qual evento o usuario foi e quantos pontos é necessario acumular no qr_code.
     cod_desconto:Chave primaria para descontar do perfil do usuario, leitura do qr_code do usuario.
-    ESTADO: Tabela onde guarda informações sobre os Estados cadastrados.
-    nome_estado: identificação do estado.
-    CIDADE: Tabela para armazenar informações das cidades.
-    nome_cidade: usado para identificar a cidade, podendo repetir, uma vez que não é chave primária.
-    BAIRRO: Tabela para armazenar informações dos bairros.
-    nome_bairro: atributo simples, apenas identificação.
-    TIPO_LOCAL: Tabela para separar e organizar os locais em "setores".
-    descricao_local: Cada código é ligado a um tipo de local, para identificar que o código pertence ao local é usada a descrição
-    LOCAL: Tabela para mais informações do local do evento.
-    rua_descricao: descrição como nome da rua, número e complemento.
-    TIPO_EVENTO: Tabela para organizar os tipos de eventos.
-    descricao_tipo: Cada codigo esta associado a uma descrição, assim identificando qual codigo é de qual evento.
-    EVENTO_CREDITO: Tabela ppara armazenar os pontos e o acumulo de credito e descontos do usuario.
     descricao_evento_credito: descrição do evento, contento informaçoes para o usuario.
     preco: descrição do evento, contendo preço.
     data: descrição do evento, contendo data.
     nome_evento: descrição do evento, contendo nome.
     horario: descrição do evento, contendo um horario.
     qrcode_evento: Cada evento possue um qr_code, que soma pontos para o usuario.
+    **VAI**
     data_hora: usada para saber que horas e qual foi o evento que o usuario usou o qr_code, para confirmar validação do mesmo.
     pontos: acumulo de pontos, que esta ligado a um codigo de evento e a um qr_code.
-    PESSOA: Tabela com os dados pessoais, para criar um perfil para o usuario.
+    **PESSOA**
     senha: usada para acesso do usuario.
     data_de_nasc: dados do usuario.
     sexo:  dados do usuario.
@@ -71,9 +73,13 @@ Retrataremos um site de eventos, no qual, o usuário terá um cadastro e uma pá
     nome_completo: dados do usuario.
     contatos: Campo multivalorado,,pois o usuario pode ter varias formas de comunicação.
     qrcode_usuario:  dados do usuario
-    EVENTO_DESCONTO: Tabela para armazenar informações do gasto do usuario.
+    **EVENTO_DESCONTO**
+    cod_desconto: chave primária, para definir qual código é de qual evento.
     descricao_evento_desconto: saber e calcular onde foi gasto e quando.
-
+    **DEBITA**
+    data_hora:usada para saber que horas e qual foi a parceria (Uber ou Ifood) que o usuario usou o qr_code.
+    pontos: gasto de pontos, que esta ligado a um codigo de evento e a um qr_code.
+    
 
 ### 6	MODELO LÓGICO<br>
 ![Alt text]
