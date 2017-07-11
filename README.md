@@ -25,8 +25,8 @@ Retrataremos um site de eventos, no qual, o usuário terá um cadastro e uma pá
     b) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
 
 #### 5.1 Validação do Modelo Conceitual
-    [Grupo01]: [Nomes dos que participaram na avaliação]
-    [Grupo02]: [Nomes dos que participaram na avaliação]
+    [Grupo01]: Milena e Júlio.
+    [Grupo02]: Thainara e Luíza.
 
 #### 5.2 DECISÕES DE PROJETO
 **PERFIL**
@@ -82,7 +82,7 @@ Foi usada uma herança, sendo que perfil viraria uma tabela nova, porém, com os
     
 
 ### 6	MODELO LÓGICO<br>
-![Alt text]
+![Alt text](
 
 ### 7	MODELO FÍSICO<br>
         https://github.com/VrauEventos/Trabalho01/blob/master/fisico_vrau_bd.sql
