@@ -85,7 +85,7 @@ Foi usada uma herança, sendo que perfil viraria uma tabela nova, porém, com os
 ![Alt text](
 
 ### 7	MODELO FÍSICO<br>
-       https://github.com/VrauEventos/Trabalho01/blob/master/fisico_vrau_bd.sql
+       https://github.com/VrauEventos/Trabalho01/blob/master/fisico_vrau_bd.sql<br>
  
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
