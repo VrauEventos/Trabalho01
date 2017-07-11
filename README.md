@@ -88,13 +88,12 @@ Foi usada uma herança, sendo que perfil viraria uma tabela nova, porém, com os
 https://github.com/VrauEventos/Trabalho01/blob/master/fisico_vrau_bd.sql
  
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
-https://github.com/VrauEventos/Trabalho01/blob/master/insert_vrau.sql
-![Alt text]
 
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
 
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
-     
+     a)https://github.com/VrauEventos/Trabalho01/blob/master/fisico_vrau_bd.sql
+     b)https://github.com/VrauEventos/Trabalho01/blob/master/insert_vrau.sql
         
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
 OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
