@@ -90,11 +90,15 @@ https://github.com/VrauEventos/Trabalho01/blob/master/fisico_vrau_bd.sql
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
+a)Dados aleatórios.
+b)Não reutilizamos código.
+c)Fontes de estudo: http://www.bravaeventos.com e https://www.blueticket.com.br/?regiao_atual=ES
 
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS 
 a)https://github.com/VrauEventos/Trabalho01/blob/master/fisico_vrau_bd.sql
 b)https://github.com/VrauEventos/Trabalho01/blob/master/insert_vrau.sql
-        
+c)Nenhum outro procedimento.
+
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
 OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas)<br>
