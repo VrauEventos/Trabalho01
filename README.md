@@ -85,9 +85,12 @@ Foi usada uma herança, sendo que perfil viraria uma tabela nova, porém, com os
 ![Alt text](
 
 ### 7	MODELO FÍSICO<br>
-       https://github.com/VrauEventos/Trabalho01/blob/master/fisico_vrau_bd.sql<br>
+https://github.com/VrauEventos/Trabalho01/blob/master/fisico_vrau_bd.sql
  
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
+https://github.com/VrauEventos/Trabalho01/blob/master/insert_vrau.sql
+![Alt text]
+
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
 
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
@@ -96,18 +99,34 @@ Foi usada uma herança, sendo que perfil viraria uma tabela nova, porém, com os
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
 OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas)<br>
+
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3) <br>
+https://github.com/VrauEventos/Trabalho01/blob/master/consulta_where.sql
+![Alt text](https://github.com/VrauEventos/Trabalho01/blob/master/where.PNG)
 
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)<br>
+FALTA ARQUIVO
+![Alt text](https://github.com/VrauEventos/Trabalho01/blob/master/where_logico_cidade.PNG)
+![Alt text](https://github.com/VrauEventos/Trabalho01/blob/master/where_logico_media.PNG)
+
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3)  <br>
+https://github.com/VrauEventos/Trabalho01/blob/master/where_like.sql
+![Alt text](https://github.com/VrauEventos/Trabalho01/blob/master/like_ddd.PNG)
+![Alt text](https://github.com/VrauEventos/Trabalho01/blob/master/like_nome_evento.PNG)
+
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
+
 #### 9.6	CONSULTAS COM JUNÇÃO (Todas Junções)<br>
+
 #### 9.7	CONSULTAS COM GROUP BY (Mínimo 5)<br>
         Entrega até este ponto em (data a ser definida)
         
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4) <br>
+
 #### 9.9	CONSULTAS COM SELF JOIN (todas) E VIEW (mais importantes) <br>
+
 #### 9.10	SUBCONSULTAS (Mínimo 3) <br>
+
 ### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES<br>
 ### 11	DIFICULDADES ENCONTRADAS PELO GRUPO<br>
 
