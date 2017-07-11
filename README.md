@@ -82,7 +82,7 @@ Foi usada uma herança, sendo que perfil viraria uma tabela nova, porém, com os
     
 
 ### 6	MODELO LÓGICO<br>
-![Alt text](
+![Alt text](https://github.com/VrauEventos/Trabalho01/blob/master/Capturar.PNG)
 
 ### 7	MODELO FÍSICO<br>
 https://github.com/VrauEventos/Trabalho01/blob/master/fisico_vrau_bd.sql
@@ -111,7 +111,7 @@ https://github.com/VrauEventos/Trabalho01/blob/master/consulta_where.sql
 
 
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)<br>
-FALTA ARQUIVO
+https://github.com/VrauEventos/Trabalho01/blob/master/consulta_where.logicos.sql
 ![Alt text](https://github.com/VrauEventos/Trabalho01/blob/master/where_logico_cidade.PNG)
 ![Alt text](https://github.com/VrauEventos/Trabalho01/blob/master/where_logico_media.PNG)
 
