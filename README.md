@@ -20,7 +20,7 @@ Retrataremos um site de eventos, no qual, o usuário terá um cadastro e uma pá
 
 ### 5.MODELO CONCEITUAL<br>
     a) NOTACAO ENTIDADE RELACIONAMENTO
-![Alt text]
+![Alt text]https://github.com/VrauEventos/Trabalho01/blob/master/bd_trabalho.PNG
     
     b) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
 
